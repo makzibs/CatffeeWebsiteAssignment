@@ -1,99 +1,170 @@
 body{
- font-family: 'Poppins', sans-serif;
- margin: 0;
- padding: 0;
-}
-
-nav {
-
-    background-color: #A4D8CC;
-    display: flex;
-    height: 123px;
-    justify-content: space-around;
-}
-
-.logoText{
-    margin-left: 30px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-grow: 1;
-
-}
-.navItem1{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   }
    
-}
-.navItem2{
-    margin-left: 200px;
-    font-size: 38px;
-    color: white;
-}
-
-.navRest{
-    margin-right: 30px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-grow: 1;
-}
-.navItem3{
-    font-size: 38px;
-    font-weight: bold;
-    color: #007777
-}
-.navItem4{
-    font-size: 32px;
-    color: white;
-    margin-left: 30px;
-}
-.navItem5{
-    font-size: 32px;
-    color: white;
-    margin-left: 30px;
-}
-.navItem6{
-    font-size: 32px;
-    color: white;
-    margin-left: 30px;
-}
-
-section{
-    height: 700px;
-    background-color: black;
-}
-
-.coverImage{
-    max-width: 100%;
-    max-height: 100%;
-}
-img{
-    width: 100vw;
-    height: 457px;
-    
-}
-
-
-
-
-
-.footer{
-    background-color: #A4D8CC;
-    height: 123px;
-    color: white;
-    display: flex;
-    align-items: center;
-    
-}
-.footerInsta{
-    margin-left: 30px;
-    font-size: 38px;
-    
-}
-.footerFB{
-    font-size: 38px;
-    margin-left: 30px;
-}
-.footerTwitter{
-    font-size: 38px;
-    margin-left: 30px;
-}
+   nav {
+   
+       background-color: #A4D8CC;
+       display: flex;
+       height: 123px;
+       justify-content: space-around;
+   }
+   
+   .logoText{
+       margin-left: 30px;
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       flex-grow: 1;
+   
+   }
+   .navItem1{
+      
+   }
+   .navItem2{
+       margin-left: 200px;
+       font-size: 38px;
+       color: white;
+   }
+   
+   .navRest{
+       margin-right: 30px;
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+       flex-grow: 1;
+   }
+   .navItem3{
+       font-size: 38px;
+       font-weight: bold;
+       color: #007777
+   }
+   .navItem4{
+       font-size: 32px;
+       color: white;
+       margin-left: 30px;
+   }
+   .navItem5{
+       font-size: 32px;
+       color: white;
+       margin-left: 30px;
+   }
+   .navItem6{
+       font-size: 32px;
+       color: white;
+       margin-left: 30px;
+   }
+   
+   section{
+       height: 2742px;
+   }
+   .coverImage{
+     height: 457px;
+     background-color: white
+   }
+   
+   .section1{
+       background-color: #FFC1C1;
+       height: 457px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .section1 h1{
+       font-size: 40px;
+       color: #007777;
+   }
+   .section1 p{
+       color: #000000;
+       font-size: 24px;
+       font-weight: lighter;
+       margin-left: 400px;
+       margin-right: 400px;
+   }
+   
+   .section2{
+       background-color:#6BC8B2;
+       height: 1143px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+   }
+   .cards{
+       height: 734px;
+       display: flex;
+   }
+   
+   .card1{
+       margin-left: 30px;
+       height: 734px;
+       width: 392px;
+       background-color: #A4D8CC;
+   }
+   .card2{
+       margin-left: 100px;
+       height: 734px;
+       width: 392px;
+       background-color: #A4D8CC;
+   }
+   .card3{
+       margin-left: 100px;
+       height: 734px;
+       width: 392px;
+       background-color: #A4D8CC;
+   }
+   .SeeMenuBtn{
+       text-align: center;
+       font-size: 24px;
+       font-weight: bold;
+       background-color:#FFC1C1;
+       border-style: solid;
+       border-color: #000000;
+       border-width: 1px;
+       height: 52px; 
+       width: 235px;
+       padding: 15px 32px;
+   
+       
+     }
+   
+   .section3{
+       height: 685px;
+       background-color: #FFC1C1;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   .footer{
+       background-color: #A4D8CC;
+       height: 123px;
+       color: white;
+       display: flex;
+       align-items: center;
+       
+   }
+   .footerInsta{
+       margin-left: 30px;
+       font-size: 38px;
+       
+   }
+   .footerFB{
+       font-size: 38px;
+       margin-left: 30px;
+   }
+   .footerTwitter{
+       font-size: 38px;
+       margin-left: 30px;
+   }
