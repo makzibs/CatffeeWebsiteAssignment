@@ -1,0 +1,138 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+   
+   nav {
+   
+       background-color: #A4D8CC;
+       display: flex;
+       height: 123px;
+       justify-content: space-around;
+   }
+   
+   .logoText{
+       margin-left: 30px;
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       flex-grow: 1;
+   
+   }
+   .navItem1{
+      
+   }
+   .navItem2{
+       margin-left: 200px;
+       font-size: 38px;
+       color: white;
+   }
+   
+   .navRest{
+       margin-right: 30px;
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+       flex-grow: 1;
+   }
+   .navItem3{
+       font-size: 38px;
+       font-weight: bold;
+       color: #007777
+   }
+   .navItem4{
+       font-size: 32px;
+       color: white;
+       margin-left: 30px;
+   }
+   .navItem5{
+       font-size: 32px;
+       color: white;
+       margin-left: 30px;
+   }
+   .navItem6{
+       font-size: 32px;
+       color: white;
+       margin-left: 30px;
+   }
+   
+   section{
+       height: 2742px;
+       background-color: #FFC1C1;
+   }
+   .coverImage{
+     height: 457px;
+     background-color: white
+   }
+   
+   .section1{
+       background-color: #FFC1C1;
+       height: 300px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .section1 h1{
+       font-size: 40px;
+       color: #007777;
+   }
+  
+   
+   .section2, .section3, .section4{
+       background-color:#FFC1C1;
+       height: 580px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+   }
+   .cards, .cards2, .cards3{
+       height: 500px;
+       display: flex;
+   }
+   
+   .card1, .card4, .card7{
+       margin-left: 30px;
+       height: 500px;
+       width: 500px;
+       background-color: #6BC8B2;
+       text-align: center;
+      
+   }
+   .card2, .card3, .card5, .card6, .card8, .card9{
+       margin-left: 80px;
+       height: 500px;
+       width: 500px;
+       background-color: #6BC8B2;
+       text-align: center;
+   }
+  
+   
+
+   
+
+
+   
+   .footer{
+       background-color: #A4D8CC;
+       height: 123px;
+       color: white;
+       display: flex;
+       align-items: center;
+       
+   }
+   .footerInsta{
+       margin-left: 30px;
+       font-size: 38px;
+       
+   }
+   .footerFB{
+       font-size: 39px;
+       margin-left: 30px;
+   }
+   .footerTwitter{
+       font-size: 38px;
+       margin-left: 30px;
+   }
