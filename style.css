@@ -109,11 +109,23 @@ body{
    }
    
    .card1{
-       margin-left: 30px;
+       
+       display: flex;
+       flex-direction: column;
        height: 734px;
        width: 392px;
        background-color: #A4D8CC;
+       justify-content: center;
+       align-items: center;
+         
    }
+   .card1 img{
+   
+   }
+   .card1 p{
+    align-items: center;
+   }
+
    .card2{
        margin-left: 100px;
        height: 734px;
