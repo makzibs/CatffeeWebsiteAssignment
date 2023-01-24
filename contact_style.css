@@ -44,9 +44,8 @@ body{
     flex-grow: 1;
 }
 .navItem3{
-    font-size: 38px;
-    font-weight: bold;
-    color: #007777
+    font-size: 32px;
+    color: white;
 }
 .navItem4{
     font-size: 32px;
@@ -60,8 +59,9 @@ body{
 }
 .navItem6{
     font-size: 32px;
-    color: white;
     margin-left: 30px;
+    font-weight: bold;
+    color: #007777
 }
    
    section{
@@ -107,6 +107,9 @@ body{
        flex-direction: column;
        justify-content: space-around;
        align-items: center;
+       flex-wrap: wrap;
+       row-gap: 5px;
+       column-gap: 1em;
    }
 
    .section2 h2, h3{
