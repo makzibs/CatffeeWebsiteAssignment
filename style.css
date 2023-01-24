@@ -101,6 +101,7 @@ body{
        height: 1143px;
        display: flex;
        flex-direction: column;
+       justify-content: center;
        align-items: center;
    }
    .cards{
@@ -201,6 +202,7 @@ body{
        border-width: 1px;
        height: 52px; 
        width: 235px;
+       margin-top: 70px;
  
      }
    
