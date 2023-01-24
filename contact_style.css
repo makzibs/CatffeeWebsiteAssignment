@@ -60,7 +60,7 @@ body{
    section{
        height: 2742px;
        background-color: #FFC1C1;
-       
+
    }
    .coverImage{
      height: 457px;
@@ -74,7 +74,7 @@ body{
    }
    
    .section1{
-       background-color: #6BC8B2;
+       background-color: #6bc8b2;
        height: 457px;
        display: flex;
        flex-direction: column;
@@ -101,10 +101,12 @@ body{
        justify-content: space-around;
        align-items: center;
    }
-   .cards{
-       height: 734px;
-       display: flex;
-   }
+
+   .section2 h2, h3{
+    font-size: 40px;
+    color: #007777;
+     }
+
 
    .SeeMenuBtn{
        text-align: center;
