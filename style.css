@@ -8,6 +8,7 @@ body{
    
        background-color: #A4D8CC;
        display: flex;
+       flex-wrap: wrap;
        height: 123px;
        justify-content: space-around;
    }
@@ -90,7 +91,7 @@ body{
    .section1 p{
        color: #000000;
        font-size: 24px;
-       font-weight: lighter;
+       font-weight: 200;
        margin-left: 400px;
        margin-right: 400px;
    }
@@ -107,56 +108,134 @@ body{
        height: 734px;
        display: flex;
    }
+   .image1{
+    overflow: hidden;
+    height: 475px;
+   }
    
-   .card1{
-       
+   .card1{ 
        display: flex;
        flex-direction: column;
        height: 734px;
        width: 392px;
        background-color: #A4D8CC;
-       justify-content: center;
-       align-items: center;
-         
+       justify-content: flex-start;
+       align-items: center;         
    }
-   .card1 img{
    
+   .card1 img{
+   zoom: 140%;
    }
    .card1 p{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
     align-items: center;
+    font-style: italic;
+    font-size: 18px;
+   }
+   .image2{
+    overflow: hidden;
+    height: 475px;
    }
 
    .card2{
+       overflow:hidden;
        margin-left: 100px;
+       display: flex;
+       flex-direction: column;
        height: 734px;
        width: 392px;
        background-color: #A4D8CC;
+       justify-content: flex-start;
+       align-items: center;
    }
+   .card2 img{
+    zoom: 165%;
+    max-height: 473px;
+    }
+    .card2 p{
+    margin-top: 50px;
+     margin-left: 20px;
+    margin-right: 20px;
+     text-align: center;
+     align-items: center;
+     font-style: italic;
+     font-size: 18px;
+    }
+    .image3{
+        overflow: hidden;
+        height: 475px;
+       }
+    
    .card3{
+       overflow: hidden;
        margin-left: 100px;
+       display: flex;
+       flex-direction: column;
        height: 734px;
        width: 392px;
        background-color: #A4D8CC;
+       justify-content: flex-start;
+       align-items: center;
    }
+   .card3 img{
+    zoom: 210%;
+    }
+    .card3 p{
+     margin-top: 50px;
+     margin-left: 20px;
+    margin-right: 20px;
+     text-align: center;
+     align-items: center;
+     font-style: italic;
+     font-size: 18px;
+    }
    .SeeMenuBtn{
        text-align: center;
        font-size: 24px;
-       font-weight: bold;
+       font-weight: lighter;
        background-color:#FFC1C1;
        border-style: solid;
        border-color: #000000;
        border-width: 1px;
        height: 52px; 
        width: 235px;
-       padding: 15px 32px;
-   
-       
+ 
      }
    
    .section3{
        height: 685px;
        background-color: #FFC1C1;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       align-items: center;
    }
+
+   .section3 h1{
+    color: #007777;
+    font-size: 32px;
+
+   }
+
+   .openingTime{
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+   }
+   .openingText{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+   
+   }
+
+
    
    
    
