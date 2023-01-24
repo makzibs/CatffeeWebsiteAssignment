@@ -86,7 +86,9 @@ body{
        color: #007777;
    }
   
-   
+   h2{
+    padding-top: 30px;
+   }
    .section2, .section3, .section4{
        background-color:#FFC1C1;
        height: 580px;
@@ -94,6 +96,7 @@ body{
        flex-direction: column;
        justify-content: space-around;
        align-items: center;
+       
    }
    .cards, .cards2, .cards3{
        height: 500px;
@@ -118,7 +121,9 @@ body{
        background-color: #6BC8B2;
        
    }
-  
+  .card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img, .card7 img, .card8 img, .card9 img{
+    margin-top: 50px;
+  }
    
 
 
