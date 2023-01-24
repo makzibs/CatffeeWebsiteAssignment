@@ -65,7 +65,7 @@ body{
 }
    
    section{
-       height: 2742px;
+       height: 1571px;
        background-color: #FFC1C1;
 
    }
@@ -102,15 +102,27 @@ body{
    
    .section2{
        background-color:#FFC1C1;
-       height: 443px;
+       height: 557px;
        display: flex;
-       flex-direction: column;
+      
        flex-wrap: wrap;
-       row-gap: 5px;
-       column-gap: 20px;
+       justify-content: space-around;
        align-items: center;
-       margin-left: 50px;
+      
+    
+       
+      
    }
+
+   .addressContact{
+   text-align: center;
+   }
+
+   .map{
+    zoom: 70%;  
+   }
+
+
 
    .section2 h2, h3{
     font-size: 40px;
