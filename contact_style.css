@@ -102,7 +102,7 @@ body{
    
    .section2{
        background-color:#FFC1C1;
-       height: 643px;
+       height: 443px;
        display: flex;
        flex-direction: column;
        flex-wrap: wrap;
