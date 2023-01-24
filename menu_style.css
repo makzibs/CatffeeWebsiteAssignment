@@ -1,0 +1,138 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+   
+   nav {
+   
+    background-color: #A4D8CC;
+    display: flex;
+    height: 123px;
+    justify-content: space-around;
+}
+
+.logoText{
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+ .navItem1{
+     width: 60px;
+     height: 60px;
+ }
+
+.navItem1 img{
+     max-width: 100%;
+     max-height: 100%;
+}
+.navItem2{
+    margin-left: 30px;
+    font-size: 38px;
+    color: white;
+}
+
+.navRest{
+    margin-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+.navItem3{
+    font-size: 32px;
+    color: white;
+}
+.navItem4{
+    font-size: 32px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #007777
+}
+.navItem5{
+    font-size: 32px;
+    color: white;
+    margin-left: 30px;
+}
+.navItem6{
+    font-size: 32px;
+    color: white;
+    margin-left: 30px;
+}
+   
+   section{
+      
+       background-color: #FFC1C1;
+
+   }
+   .coverImage{
+     height: 457px;
+     background-color: #FFC1C1;
+     flex-basis: 100%;
+     max-height: 100%;
+     min-width: 100%;
+     object-fit: cover;
+     vertical-align: bottom;
+
+   }  
+   .footer{
+       background-color: #A4D8CC;
+       height: 123px;
+       color: white;
+       display: flex;
+       align-items: center;
+       
+   }
+   .footerInsta{
+       margin-left: 30px;
+       font-size: 38px;
+       
+   }
+   .footerFB{
+       font-size: 38px;
+       margin-left: 30px;
+   }
+   .footerTwitter{
+       font-size: 38px;
+       margin-left: 30px;
+   }
+   
+
+.SNACKS { grid-area: SNACKS; }
+.SALAD { grid-area: SALAD; }
+.COFFEE { grid-area: COFFEE; }
+.BEVERAGES { grid-area: BEVERAGES; }
+.SMOOTHIES { grid-area: SMOOTHIES; }
+.DESERT { grid-area: DESERT; }
+
+.grid-container {
+    
+  display: grid;
+  grid-template-areas:
+    'SNACKS SALAD'
+    'COFFEE BEVERAGES'
+    'SMOOTHIES DESERT';
+  gap: 80px;
+  padding: 10px;
+}
+
+
+
+.grid-container  {
+    margin: 10px 10px 10px 10px;
+  padding: 5px 0;
+  font-size: 16px;
+  text-align: center;
+}
+.SNACKS , .SALAD , .COFFEE , .BEVERAGES , .SMOOTHIES , .DESERT{
+    text-align: center;
+  }
+
+  th{
+    font-weight: bold;
+    color: #007777
+  }
