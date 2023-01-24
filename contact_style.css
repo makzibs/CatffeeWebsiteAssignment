@@ -102,27 +102,19 @@ body{
    
    .section2{
        background-color:#FFC1C1;
-       height: 943px;
+       height: 643px;
        display: flex;
        flex-direction: column;
        flex-wrap: wrap;
        row-gap: 5px;
-       column-gap: 5em;
+       column-gap: 20px;
+       justify-content: center;
+       margin-left: 50px;
    }
 
    .section2 h2, h3{
     font-size: 40px;
     color: #007777;
-    }
-
-    .map {
-        align-items: safe center
-    }
-
-   .section3{
-       height: 385px;
-       background-color: #FFC1C1;  
-        align-items: safe center
     }
    
    .footer{
