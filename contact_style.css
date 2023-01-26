@@ -273,25 +273,24 @@ body{
      color: #007777;
      }
     
-    .footer{
+     .footer{
         background-color: #A4D8CC;
-        height: 100px;
+        height: 80px;
         color: white;
         display: flex;
         align-items: center;
         
     }
     .footerInsta{
-        margin-left: 30px;
-        font-size: 28px;
+        margin-left: 10px;
+        font-size: 20px;
         
     }
     .footerFB{
-        font-size: 28px;
-        margin-left: 30px;
+        font-size: 20px;
+        margin-left: 10px;
     }
     .footerTwitter{
-        font-size: 28px;
-        margin-left: 30px;
-    }
+        font-size: 20px;
+        margin-left:10px;}
 }
