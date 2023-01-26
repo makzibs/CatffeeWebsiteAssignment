@@ -272,7 +272,9 @@ body{
    }
 
 
+/*mobile layout*/
 
+/*navbar*/
    @media (max-width: 420px) {
 
     nav {
@@ -336,7 +338,221 @@ body{
         margin-left: 10px;
     }
 
+    /*sections start*/
+
+
+    section{
+        height: 1250px;
+    }
+    .coverImage{
+      zoom: 100%;
+      overflow: hidden;
+      height: 100px;
+      width: 100%;
+      background-color: white
+    }
+    
+    .section1{
+        background-color: #FFC1C1;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section1 h1{
+        font-size: 20px;
+        color: #007777;
+    }
+    .section1 p{
+        color: #000000;
+        font-size: 12px;
+        font-weight: 200;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .section2{
+        background-color:#6BC8B2;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards{
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    
+    
+    .card1{ 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 200px;
+        width: 40%;
+        background-color: #A4D8CC;
+        justify-content: flex-start;
+        align-items: center;         
+    }
+
+    .image1{
+        overflow: hidden;
+        height: 200px;
+       }
+    
+    .card1 img{
+    zoom: 50%;
+    }
+    .card1 p{
+     margin-top: 10px;
+     margin-left: 10px;
+     margin-right: 10px;
+     text-align: center;
+     align-items: center;
+     font-style: italic;
+     font-size: 12px;
+    }
+    .image2{
+     overflow: hidden;
+     height: 200px;
+    }
+ 
+    .card2{
+        overflow:hidden;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+        width: 30%;
+        background-color: #A4D8CC;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .card2 img{
+     zoom: 50%;
+     max-height: 473px;
+     }
+     .card2 p{
+     margin-top: 10px;
+      margin-left: 10px;
+     margin-right: 10px;
+      text-align: center;
+      align-items: center;
+      font-style: italic;
+      font-size: 12px;
+     }
+     .image3{
+         overflow: hidden;
+         height: 200px;
+        }
+     
+    .card3{
+        overflow: hidden;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+        width: 30%;
+        background-color: #A4D8CC;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .card3 img{
+     zoom: 50%;
+     }
+     .card3 p{
+      margin-top: 10px;
+      margin-left: 10px;
+     margin-right: 10px;
+      text-align: center;
+      align-items: center;
+      font-style: italic;
+      font-size: 12px;
+     }
+    .SeeMenuBtn{
+        text-align: center;
+        font-size: 12px;
+        font-weight: lighter;
+        background-color:#FFC1C1;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        height: 25px; 
+        width: 100px;
+        margin-top: 10px;
+  
+      }
+    
+    .section3{
+        height: 300px;
+        background-color: #FFC1C1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+ 
+    .section3 h1{
+     color: #007777;
+     font-size: 24px;
+ 
+    }
+ 
+    .openingTime{
+     text-align: center;
+     font-size: 18px;
+     font-weight: lighter;
+    }
+    .openingText{
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-bottom: 10px;
+     text-align: center;
+     font-size: 14px;
+     font-style: italic;
+    
+    }
+ 
+ 
+    
+    
+
+    
+
+     /*footer*/
+
+    .footer{
+        background-color: #A4D8CC;
+        height: 80px;
+        color: white;
+        display: flex;
+        align-items: center;
+        
+    }
+    .footerInsta{
+        margin-left: 10px;
+        font-size: 20px;
+        
+    }
+    .footerFB{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .footerTwitter{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
 
    }
+
+
+  
 
    
