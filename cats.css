@@ -181,6 +181,8 @@ a:active { text-decoration: none; }
        margin-left: 30px;
    }
 
+/*dimension: Samsung Galagy S20 Ultra*/
+
    @media (max-width: 420px) {
 
     nav {
