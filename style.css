@@ -47,7 +47,8 @@ body{
    .navItem3{
        font-size: 38px;
        font-weight: bold;
-       color: #007777
+       color: #007777;
+       
    }
    .navItem4{
        font-size: 32px;
@@ -69,11 +70,15 @@ body{
        height: 2742px;
    }
    .coverImage{
-     zoom: 120%;
+     zoom: 100%;
      overflow: hidden;
      height: 457px;
      width: 100%;
      background-color: white
+   }
+   .coverImage img{
+    height: 200%;
+    width: 100%;
    }
    
    .section1{
@@ -318,7 +323,7 @@ body{
         flex-grow: 1;
     }
     .navItem3{
-        font-size: 20px;
+        font-size: 22px;
         font-weight: bold;
         color: #007777
     }
@@ -343,13 +348,18 @@ body{
 
     section{
         height: 1250px;
+        overflow: hidden;
     }
     .coverImage{
       zoom: 100%;
       overflow: hidden;
-      height: 100px;
+      height: 200px;
       width: 100%;
       background-color: white
+    }
+    .coverImage img{
+        height: 200%;
+        width: 100%;
     }
     
     .section1{
@@ -374,7 +384,7 @@ body{
     
     .section2{
         background-color:#6BC8B2;
-        height: 600px;
+        height: 500px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -385,17 +395,18 @@ body{
         height: 400px;
         display: flex;
         justify-content: space-around;
-        
-        
+        margin-left: 10px;
+        margin-right: 10px;
+           
     }
     
     
     .card1{ 
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        height: 200px;
-        width: 40%;
+        overflow: hidden;
+        height: 300px;
+        width: 28%;
         background-color: #A4D8CC;
         justify-content: flex-start;
         align-items: center;         
@@ -416,7 +427,7 @@ body{
      text-align: center;
      align-items: center;
      font-style: italic;
-     font-size: 12px;
+     font-size: 8px;
     }
     .image2{
      overflow: hidden;
@@ -428,8 +439,8 @@ body{
         margin-left: 10px;
         display: flex;
         flex-direction: column;
-        height: 250px;
-        width: 30%;
+        height: 300px;
+        width: 28%;
         background-color: #A4D8CC;
         justify-content: flex-start;
         align-items: center;
@@ -445,7 +456,7 @@ body{
       text-align: center;
       align-items: center;
       font-style: italic;
-      font-size: 12px;
+      font-size: 8px;
      }
      .image3{
          overflow: hidden;
@@ -457,14 +468,14 @@ body{
         margin-left: 10px;
         display: flex;
         flex-direction: column;
-        height: 250px;
-        width: 30%;
+        height: 300px;
+        width: 28%;
         background-color: #A4D8CC;
         justify-content: flex-start;
         align-items: center;
     }
     .card3 img{
-     zoom: 50%;
+     zoom: 65%;
      }
      .card3 p{
       margin-top: 10px;
@@ -473,7 +484,7 @@ body{
       text-align: center;
       align-items: center;
       font-style: italic;
-      font-size: 12px;
+      font-size: 8px;
      }
     .SeeMenuBtn{
         text-align: center;
