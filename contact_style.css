@@ -244,4 +244,54 @@ body{
         vertical-align: bottom;
    
       }
+
+      .section2{
+        background-color:#FFC1C1;
+        height: 657px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        
+       
+    }
+ 
+    .addressContact{
+    text-align: center;
+    }
+ 
+    .Map{
+     max-width: 80%;
+     display: flex;
+     flex-wrap: wrap;
+    }
+ 
+ 
+ 
+    .section2 h2, h3{
+     font-size: 18px;
+     color: #007777;
+     }
+    
+    .footer{
+        background-color: #A4D8CC;
+        height: 100px;
+        color: white;
+        display: flex;
+        align-items: center;
+        
+    }
+    .footerInsta{
+        margin-left: 30px;
+        font-size: 28px;
+        
+    }
+    .footerFB{
+        font-size: 28px;
+        margin-left: 30px;
+    }
+    .footerTwitter{
+        font-size: 28px;
+        margin-left: 30px;
+    }
 }
