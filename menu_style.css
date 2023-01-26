@@ -1,7 +1,10 @@
+
 body{
+    
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+        
    }
    
    nav {
@@ -65,7 +68,7 @@ body{
 }
    
    section{
-      
+    
        background-color: #FFC1C1;
 
    }
@@ -128,15 +131,20 @@ body{
   font-size: 16px;
   text-align: center;
 }
-.SNACKS , .SALAD , .COFFEE , .BEVERAGES , .SMOOTHIES , .DESERT{
+.Snacks , .Salads , .Coffee , .Beverages , .Smoothies , .Desserts{
+    margin: 90px 90px 0px 90px;
     text-align: center;
   }
 
   th{
+    text-align: center;
     font-weight: bold;
     color: #007777
   }
+ td{
+    text-align: center;
 
+ }
   
 @media (max-width: 420px) {
 
