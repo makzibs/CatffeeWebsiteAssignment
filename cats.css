@@ -103,7 +103,7 @@ body{
    }
    .cards, .cards2, .cards3{
        height: 500px;
-       width: 1443px;
+      
        display: flex;
        text-align: center;
        color:#007777;
@@ -111,7 +111,6 @@ body{
    }
    
    .card1, .card4, .card7{
-       margin-left: 0px;
        height: 500px;
        width: 450px;
        background-color: #6BC8B2;
