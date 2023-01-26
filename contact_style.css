@@ -279,7 +279,7 @@ body{
      max-width: 80%;
      display: flex;
      flex-wrap: wrap;
-     justify-self:right;
+     margin-left: 35px;
     }
  
  
