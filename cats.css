@@ -153,3 +153,107 @@ body{
        font-size: 38px;
        margin-left: 30px;
    }
+
+   @media (max-width: 420px) {
+
+    nav {
+   
+       background-color: #A4D8CC;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       height: 80px;
+       justify-content: space-around;
+   }
+   .logoText{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+    }
+
+    .navItem1{
+     width: 30px;
+     height: 30px;
+    }
+
+     .navItem1 img{
+     max-width: 100%;
+     max-height: 100%;
+    }
+    .navItem2{
+    margin-left: 10px;
+    font-size: 18px;
+    color: white;
+    }
+
+    .navRest{
+        margin-right: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-grow: 1;
+    }
+    .navItem3{
+        font-size: 20px;
+        font-weight: bold;
+        color: #007777
+    }
+    .navItem4{
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+    }
+    .navItem5{
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+    }
+    .navItem6{
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;}
+
+
+
+    .coverImage{
+        height: 200px;
+        background-color: #FFC1C1;
+        flex-basis: 100%;
+        max-height: 100%;
+        min-width: 100%;
+        object-fit: cover;
+        vertical-align: bottom;
+   
+      }
+
+      .section1 h1{
+        font-size: 18px;
+        color: #007777;
+    }
+
+
+        .footer{
+            background-color: #A4D8CC;
+            height: 80px;
+            color: white;
+            display: flex;
+            align-items: center;
+            
+        }
+        .footerInsta{
+            margin-left: 10px;
+            font-size: 20px;
+            
+        }
+        .footerFB{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .footerTwitter{
+            font-size: 20px;
+            margin-left:10px;}
+
+}
