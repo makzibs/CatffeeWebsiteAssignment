@@ -421,7 +421,7 @@ body{
         align-items: center;
     }
     .cards{
-        height: 400px;
+        height: 450px;
         display: flex;
         justify-content: space-around;
         margin-left: 10px;
