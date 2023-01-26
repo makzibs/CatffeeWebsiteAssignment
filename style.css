@@ -419,7 +419,8 @@ body{
       background-color: white
     }
     .coverImage img{
-        height: 200%;
+        /* Anil test if the image looks better with the height commented out*/
+        /*height: 200%;*/
         width: 100%;
     }
     
