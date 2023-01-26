@@ -229,6 +229,12 @@ body{
    
       }
 
+      .section1 h1{
+        font-size: 18px;
+        color: #007777;
+    }
+
+
         .footer{
             background-color: #A4D8CC;
             height: 80px;
