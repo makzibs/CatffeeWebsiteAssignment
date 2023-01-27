@@ -141,16 +141,18 @@ body{
 
 .Snacks , .Salads , .Coffee , .Beverages , .Smoothies , .Desserts{
     margin: 10px 50px 50px 50px;
-    text-align: center;
+    text-align: left;
   }
 
   th{
-    text-align: center;
+    text-align: left;
     font-weight: bold;
-    color: #007777
+    color: #007777;
+    font-size:30px;
   }
  td{
-    text-align: center;
+    text-align: cleft;
+    font-size:20px;
  }
 
  @media (max-width: 420px) {
@@ -292,5 +294,15 @@ body{
         margin-left: 10px;
     }
 
-
+    th{
+        text-align: left;
+        font-weight: bold;
+        color: #007777;
+        font-size:18px;
+      }
+     td{
+        text-align: left;
+        font-size:16px;
+     }
    }
+   
