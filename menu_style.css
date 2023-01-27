@@ -156,6 +156,22 @@ body{
     font-size:20px;
  }
 
+
+
+ .container{
+    position: relative; /*Make sure container is relative*/
+}
+.text{
+    position: absolute; /*Make sure text is absolute*/
+    top: 50%; /* Position text in the middle of the container*/
+    left: 50%; /* Position text in the middle of the container*/
+    transform: translate(-50%, -50%); /* Center the text */
+    text-align: center; /* Center the text */
+    color:white; /*Text color*/
+    z-index: 1; /*Make sure text is on top of the image*/
+}
+
+
  @media (max-width: 420px) {
 
     nav {
