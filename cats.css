@@ -121,6 +121,7 @@ a:active { text-decoration: none; }
   
    h2{
     padding-top: 30px;
+    font-size: 30px;
 }
    .section2, .section3, .section4{
        background-color:#FFC1C1;
@@ -315,7 +316,7 @@ a:active { text-decoration: none; }
         }
         h2{
             padding-top: 0px;
-        font-size: 12px;}
+        font-size: 13px;}
 
         .cards, .cards2, .cards3{
             height: 130px;
