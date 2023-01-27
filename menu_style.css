@@ -145,6 +145,7 @@ body{
   }
 
   th{
+    width: 280px;
     text-align: left;
     font-weight: bold;
     color: #007777;
