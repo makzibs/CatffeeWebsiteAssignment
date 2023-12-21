@@ -20,7 +20,7 @@ To get started with the project, follow these steps:
 Clone the Repository:
 
 ```
-git clone https://github.com/your-username/website-ui-project.git](https://github.com/makzibs/CatffeeWebsiteAssignment.git 
+git clone https://github.com/makzibs/CatffeeWebsiteAssignment.git 
 ```
 
 Navigate to the Project Directory:
