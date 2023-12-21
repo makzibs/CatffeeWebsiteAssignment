@@ -26,7 +26,7 @@ git clone https://github.com/makzibs/CatffeeWebsiteAssignment.git
 Navigate to the Project Directory:
 
 ```
-    cd CatffeeWebsiteAssignment
+cd CatffeeWebsiteAssignment
 ```
 
 Open the Files in your Preferred Code Editor:  
